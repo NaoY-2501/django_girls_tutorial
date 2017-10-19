@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
+
 class Post(models.Model):
     """ 記事モデル"""
     author = models.ForeignKey('auth.User')
