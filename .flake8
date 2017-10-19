@@ -1,2 +1,2 @@
 [flake8]
-exclude = mysite/settings.py
+exclude = apps/settings/*, apps/blog/migrations/*
